@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/andyeff/blog-aggregator-ts/issues"
   },
-  "homepage": "https://github.com/andyeff/blog-aggregator-ts#readme"
+  "homepage": "https://github.com/andyeff/blog-aggregator-ts#readme",
+  "devDependencies": {
+    "@types/node": "^24.7.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
 }
