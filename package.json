@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "In which I attempt to finish this course from Boot.Dev - <https://www.boot.dev/courses/build-blog-aggregator-typescript>",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/andyeff/blog-aggregator-ts.git"
@@ -21,5 +18,9 @@
     "@types/node": "^24.7.2",
     "tsx": "^4.20.6",
     "typescript": "^5.9.3"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "tsx ./src/index.ts"
   }
 }
